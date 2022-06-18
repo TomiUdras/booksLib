@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "untitled3",
+					"name" : "booksLib",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "untitled3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-untitled3-Debug-cae966012b99883ed565.json",
-					"name" : "untitled3",
+					"id" : "booksLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-booksLib-Debug-5f6c087d88c3840ed2e4.json",
+					"name" : "booksLib",
 					"projectIndex" : 0
 				}
 			]
