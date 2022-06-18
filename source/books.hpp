@@ -6,9 +6,9 @@ using namespace std;
 
 class book {
 private:
-    char *author, *title, *publisher;
-    float *price;
-    int *stock;
+    char *author, *title, *publisher; //    параметры книги
+    float *price; //    цена книги
+    int *stock; //кол-во книг
 public:
     book() {
         author = new char[20];
