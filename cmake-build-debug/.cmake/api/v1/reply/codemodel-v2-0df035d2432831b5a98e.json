@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "booksLib",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "booksLib::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-booksLib-Debug-5f6c087d88c3840ed2e4.json",
 					"name" : "booksLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "booksLib_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-booksLib_test-Debug-ee095d85626efc6c71fa.json",
+					"name" : "booksLib_test",
 					"projectIndex" : 0
 				}
 			]

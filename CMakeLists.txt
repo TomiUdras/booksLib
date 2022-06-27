@@ -10,3 +10,4 @@ file(GLOB SOURCES
         )
 
 add_executable(booksLib ${SOURCES})
+add_executable(booksLib_test source/test.cpp source/doctest.h)

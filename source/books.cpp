@@ -39,7 +39,7 @@ void book::showdata() { //  показвает какие книги есть в
 
 }
 
-int book::search(char tbuy[20], char abuy[20]) { // проверка на наличие книг в магазине
+int book::search(char tbuy[20], char abuy[20]) { // проверка наличия книг в магазине
     if (strcmp(tbuy, title) == 0 && strcmp(abuy, author) == 0)
         return 1;
     else return 0;

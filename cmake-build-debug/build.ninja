@@ -77,6 +77,37 @@ build booksLib: CXX_EXECUTABLE_LINKER__booksLib_Debug CMakeFiles/booksLib.dir/so
   TARGET_FILE = booksLib
   TARGET_PDB = booksLib.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target booksLib_test
+
+
+#############################################
+# Order-only phony target for booksLib_test
+
+build cmake_object_order_depends_target_booksLib_test: phony || CMakeFiles/booksLib_test.dir
+
+build CMakeFiles/booksLib_test.dir/source/test.cpp.o: CXX_COMPILER__booksLib_test_Debug /Users/tomiudras/CLionProjects/booksLib/source/test.cpp || cmake_object_order_depends_target_booksLib_test
+  DEP_FILE = CMakeFiles/booksLib_test.dir/source/test.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/booksLib_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/booksLib_test.dir/source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target booksLib_test
+
+
+#############################################
+# Link the executable booksLib_test
+
+build booksLib_test: CXX_EXECUTABLE_LINKER__booksLib_test_Debug CMakeFiles/booksLib_test.dir/source/test.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/booksLib_test.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = booksLib_test
+  TARGET_PDB = booksLib_test.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -111,7 +142,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/tomiudras/CLionProjects/booksLib/cmake-build-debug
 
-build all: phony booksLib
+build all: phony booksLib booksLib_test
 
 # =============================================================================
 # Built-in targets
