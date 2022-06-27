@@ -55,6 +55,12 @@ build CMakeFiles/booksLib.dir/source/books.cpp.o: CXX_COMPILER__booksLib_Debug /
   OBJECT_DIR = CMakeFiles/booksLib.dir
   OBJECT_FILE_DIR = CMakeFiles/booksLib.dir/source
 
+build CMakeFiles/booksLib.dir/source/func_to_test.cpp.o: CXX_COMPILER__booksLib_Debug /Users/tomiudras/CLionProjects/booksLib/source/func_to_test.cpp || cmake_object_order_depends_target_booksLib
+  DEP_FILE = CMakeFiles/booksLib.dir/source/func_to_test.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/booksLib.dir
+  OBJECT_FILE_DIR = CMakeFiles/booksLib.dir/source
+
 build CMakeFiles/booksLib.dir/source/main.cpp.o: CXX_COMPILER__booksLib_Debug /Users/tomiudras/CLionProjects/booksLib/source/main.cpp || cmake_object_order_depends_target_booksLib
   DEP_FILE = CMakeFiles/booksLib.dir/source/main.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++2a
@@ -69,7 +75,7 @@ build CMakeFiles/booksLib.dir/source/main.cpp.o: CXX_COMPILER__booksLib_Debug /U
 #############################################
 # Link the executable booksLib
 
-build booksLib: CXX_EXECUTABLE_LINKER__booksLib_Debug CMakeFiles/booksLib.dir/source/books.cpp.o CMakeFiles/booksLib.dir/source/main.cpp.o
+build booksLib: CXX_EXECUTABLE_LINKER__booksLib_Debug CMakeFiles/booksLib.dir/source/books.cpp.o CMakeFiles/booksLib.dir/source/func_to_test.cpp.o CMakeFiles/booksLib.dir/source/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/booksLib.dir
   POST_BUILD = :

@@ -7,6 +7,7 @@ file(GLOB SOURCES
         source/books.cpp
         source/books.hpp
         source/main.cpp
+        source/func_to_test.cpp
         )
 
 add_executable(booksLib ${SOURCES})
