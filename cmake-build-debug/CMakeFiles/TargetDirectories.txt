@@ -1,4 +1,5 @@
 /Users/tomiudras/CLionProjects/booksLib/cmake-build-debug/CMakeFiles/booksLib.dir
 /Users/tomiudras/CLionProjects/booksLib/cmake-build-debug/CMakeFiles/booksLib_test.dir
+/Users/tomiudras/CLionProjects/booksLib/cmake-build-debug/CMakeFiles/cloud-test.dir
 /Users/tomiudras/CLionProjects/booksLib/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/tomiudras/CLionProjects/booksLib/cmake-build-debug/CMakeFiles/rebuild_cache.dir

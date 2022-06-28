@@ -213,15 +213,6 @@ booksLib_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 booksLib_SOURCE_DIR:STATIC=/Users/tomiudras/CLionProjects/booksLib
 
-//Value Computed by CMake
-untitled3_BINARY_DIR:STATIC=/Users/tomiudras/CLionProjects/booksLib/cmake-build-debug
-
-//Value Computed by CMake
-untitled3_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-untitled3_SOURCE_DIR:STATIC=/Users/tomiudras/CLionProjects/booksLib
-
 
 ########################
 # INTERNAL cache entries

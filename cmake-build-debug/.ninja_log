@@ -1,13 +1,8 @@
 # ninja log v5
-4	350	1653328857433352980	CMakeFiles/untitled3.dir/main.cpp.o	dd2f4df964999de8
 350	377	1653328857461560116	untitled3	6525087b9177c060
-0	457	1655537070779929022	CMakeFiles/booksLib.dir/main.cpp.o	50bfee7aa10729af
-1	2563	1656339841234516459	CMakeFiles/booksLib.dir/source/books.cpp.o	cf52366c0531bd6b
-2563	2768	1656339841443247751	booksLib	27a2a3382eba815a
-2	2563	1656339841234590031	CMakeFiles/booksLib.dir/source/main.cpp.o	2757086b107d52cc
-0	577	1656344336054529146	CMakeFiles/booksLib_test.dir/source/test.cpp.o	de01c71df68039db
-1	369	1656344348481285133	CMakeFiles/booksLib_test.dir/source/test.cpp.o	de01c71df68039db
-2	360	1656344376220156812	CMakeFiles/booksLib_test.dir/source/test.cpp.o	de01c71df68039db
-2	235	1656344443957911083	CMakeFiles/booksLib.dir/source/func_to_test.cpp.o	1d638f4e5a93e074
 1	540	1656344444261760499	CMakeFiles/booksLib.dir/source/books.cpp.o	cf52366c0531bd6b
 540	587	1656344444311693957	booksLib	2514e0373e21332d
+2	2563	1656339841234590031	CMakeFiles/booksLib.dir/source/main.cpp.o	2757086b107d52cc
+2	593	1656435152505893091	CMakeFiles/booksLib_test.dir/source/test.cpp.o	de01c71df68039db
+2	235	1656344443957911083	CMakeFiles/booksLib.dir/source/func_to_test.cpp.o	1d638f4e5a93e074
+1	382	1656435373277244380	CMakeFiles/booksLib_test.dir/source/test.cpp.o	de01c71df68039db

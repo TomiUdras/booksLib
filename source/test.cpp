@@ -1,12 +1,14 @@
 #include "books.cpp"
 #include "doctest.h"
 
+
 TEST_CASE("test1"){
-    REQUIRE(book::search('qwer','qwer') == 1);
-}
-TEST_CASE("test2"){
-    REQUIRE(book::search('qweryui','qwer') == 0);
-}
-TEST_CASE("test3"){
-    REQUIRE(book::search('qwer','qoiuywer') == 0);
+    book book1;
+    char titlebuy[20], authorbuy[20];
+    cin.ignore();
+    cout << "\nEnter Title Of Book: ";
+    cin.getline(titlebuy, 20);
+    cout << "Enter Author Of Book: ";
+    cin.getline(authorbuy, 20);
+    REQUIRE(book1.search(titlebuy,authorbuy) == 1);
 }

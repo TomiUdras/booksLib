@@ -1112,42 +1112,6 @@
 			],
 			"type" : "STATIC",
 			"value" : "/Users/tomiudras/CLionProjects/booksLib"
-		},
-		{
-			"name" : "untitled3_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/tomiudras/CLionProjects/booksLib/cmake-build-debug"
-		},
-		{
-			"name" : "untitled3_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "untitled3_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/tomiudras/CLionProjects/booksLib"
 		}
 	],
 	"kind" : "cache",

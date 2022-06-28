@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -48,8 +50,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "booksLib_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-booksLib_test-Debug-9bb597fee1434816ee81.json",
+					"jsonFile" : "target-booksLib_test-Debug-e5199b32b0698671cbba.json",
 					"name" : "booksLib_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cloud-test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cloud-test-Debug-459895a8afe98df4bb8e.json",
+					"name" : "cloud-test",
 					"projectIndex" : 0
 				}
 			]
