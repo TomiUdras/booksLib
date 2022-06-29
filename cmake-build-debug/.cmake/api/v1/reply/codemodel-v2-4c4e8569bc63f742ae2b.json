@@ -78,21 +78,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "booksLib::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-booksLib-Debug-5b5a452454a12ef430d3.json",
+					"jsonFile" : "target-booksLib-Debug-755c33c1683171da15aa.json",
 					"name" : "booksLib",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "booksLib_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-booksLib_test-Debug-f7a0dd82d4ac87572024.json",
+					"jsonFile" : "target-booksLib_test-Debug-ddecd926ea9ec3e3909f.json",
 					"name" : "booksLib_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "cloud-test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cloud-test-Debug-459895a8afe98df4bb8e.json",
+					"jsonFile" : "target-cloud-test-Debug-42bcc6d572cfd57fa799.json",
 					"name" : "cloud-test",
 					"projectIndex" : 0
 				},
