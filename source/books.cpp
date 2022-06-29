@@ -1,7 +1,7 @@
 #include "books.hpp"
 
-/** добавление книги в БД
- *
+/**
+ *добавление книги в БД
  */
 void book::feeddata() {
     cin.ignore();
@@ -17,8 +17,8 @@ void book::feeddata() {
     cin >> *stock;
 
 }
-/** изменение базы данных книжного магазина
- *
+/**
+ *изменение базы данных книжного магазина
  */
 void book::editdata() {
 
@@ -34,8 +34,8 @@ void book::editdata() {
     cin >> *stock;
 
 }
-/** показвает какие книги есть в магазине
- *
+/**
+ *показвает какие книги есть в магазине
  */
 void book::showdata() {
     cout << "\nAuthor Name: " << author;
@@ -51,15 +51,13 @@ void book::showdata() {
  * @param abuy имя автора
  * @return
  */
-int book::search(char tbuy[20], char abuy[20]) {
-    if (strcmp(tbuy, title) == 0 && strcmp(abuy, author) == 0)
-        return 1;
-    else return 0;
-
+bool book::search(std::string const &tbuy, std::string const &abuy) {
+    return tbuy==title && abuy==author;
 }
 
-/** функция отвечающая за покупку книги в системе
- *
+
+/**
+ *функция отвечающая за покупку книги в системе
  */
 void book::buybook() {
     int count;

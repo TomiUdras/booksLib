@@ -6,16 +6,19 @@ using namespace std;
 
 class book {
 private:
-    char *author, *title, *publisher; //    параметры книги
-    float *price; //    цена книги
-    int *stock; //кол-во книг
+    /// автор книги
+    std::string author;
+    /// название и кто публикует
+    std::string title, publisher;
+    float price;
+    int stock;
 public:
     book() {
-        author = new char[20];
-        title = new char[20];
-        publisher = new char[20];
-        price = new float;
-        stock = new int;
+        author = std::string();
+        title = std::string();
+        publisher = std::string();
+        price = 0;
+        stock = 0;
     }
 
     void feeddata();
@@ -24,7 +27,7 @@ public:
 
     void showdata();
 
-    int search(char[], char[]);
+    bool book::search(std::string const &tbuy, std::string const &abuy);
 
     void buybook();
 
