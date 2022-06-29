@@ -6,6 +6,10 @@
 			[
 				{
 					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
@@ -19,12 +23,31 @@
 						1,
 						2
 					]
+				},
+				{
+					"build" : "external/doctest",
+					"jsonFile" : "directory-external.doctest-Debug-2595faa3d07164a12e83.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/doctest",
+					"targetIndexes" : 
+					[
+						3
+					]
 				}
 			],
 			"name" : "Debug",
 			"projects" : 
 			[
 				{
+					"childIndexes" : 
+					[
+						1
+					],
 					"directoryIndexes" : 
 					[
 						0
@@ -35,6 +58,18 @@
 						0,
 						1,
 						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "doctest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
 					]
 				}
 			],
@@ -50,7 +85,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "booksLib_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-booksLib_test-Debug-e5199b32b0698671cbba.json",
+					"jsonFile" : "target-booksLib_test-Debug-f7a0dd82d4ac87572024.json",
 					"name" : "booksLib_test",
 					"projectIndex" : 0
 				},
@@ -60,6 +95,13 @@
 					"jsonFile" : "target-cloud-test-Debug-459895a8afe98df4bb8e.json",
 					"name" : "cloud-test",
 					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "doctest::@dd360341bad613a1a6b7",
+					"jsonFile" : "target-doctest-Debug-bb7f1a4e6011fad6cb5f.json",
+					"name" : "doctest",
+					"projectIndex" : 1
 				}
 			]
 		}

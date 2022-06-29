@@ -16,3 +16,5 @@ target_link_libraries(booksLib_test doctest)
 
 add_test(NAME Test COMMAND Test —force-colors -d)
 add_custom_target(cloud-test COMMAND Test —force-colors -d)
+enable_testing()
+add_subdirectory(external/doctest)
