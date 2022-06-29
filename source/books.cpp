@@ -41,8 +41,8 @@ void book::showdata() {
     cout << "\nAuthor Name: " << author;
     cout << "\nTitle Name: " << title;
     cout << "\nPublisher Name: " << publisher;
-    cout << "\nPrice: " << *price;
-    cout << "\nStock Position: " << *stock;
+    cout << "\nPrice: " << price;
+    cout << "\nStock Position: " << stock;
 
 }
 /** проверка наличия книг в магазине
@@ -66,7 +66,7 @@ void book::buybook() {
     if (count <= stock) {
         stock = stock - count;
         cout << "\nBooks Bought Sucessfully";
-        cout << "\nAmount: Rs. " << (*price) * count;
+        cout << "\nAmount: Rs. " << (price) * count;
     } else
         cout << "\nRequired Copies not in Stock";
 }
