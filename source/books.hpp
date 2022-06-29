@@ -46,7 +46,7 @@ public:
  */
     bool search(std::string const &tbuy, std::string const &abuy);
 
-    
+
 /**
  *функция отвечающая за покупку книги в системе
  */
