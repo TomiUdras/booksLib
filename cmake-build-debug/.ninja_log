@@ -5,3 +5,7 @@
 2	2563	1656339841234590031	CMakeFiles/booksLib.dir/source/main.cpp.o	2757086b107d52cc
 1	382	1656435373277244380	CMakeFiles/booksLib_test.dir/source/test.cpp.o	de01c71df68039db
 2	235	1656344443957911083	CMakeFiles/booksLib.dir/source/func_to_test.cpp.o	1d638f4e5a93e074
+9	814	1656498468082956589	CMakeFiles/booksLib_test.dir/source/test.cpp.o	f0ecaf26c9dab1ee
+10	1382	1656498468651653834	external/doctest/CMakeFiles/doctest.dir/doctest.cpp.o	facc67b68011515
+1382	1480	1656498468754521000	external/doctest/libdoctest.a	e34a810d99af48f9
+1480	1684	1656498468957870777	booksLib_test	628fc99fea28258d
