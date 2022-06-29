@@ -1,6 +1,9 @@
 #include "books.hpp"
 
-void book::feeddata() { //  добавление книги в БД
+/** добавление книги в БД
+ *
+ */
+void book::feeddata() {
     cin.ignore();
     cout << "\nEnter Author Name: ";
     cin.getline(author, 20);
@@ -14,8 +17,10 @@ void book::feeddata() { //  добавление книги в БД
     cin >> *stock;
 
 }
-
-void book::editdata() { //  изменение базы данных книжного магазина
+/** изменение базы данных книжного магазина
+ *
+ */
+void book::editdata() {
 
     cout << "\nEnter Author Name: ";
     cin.getline(author, 20);
@@ -29,8 +34,10 @@ void book::editdata() { //  изменение базы данных книжн�
     cin >> *stock;
 
 }
-
-void book::showdata() { //  показвает какие книги есть в магазине
+/** показвает какие книги есть в магазине
+ *
+ */
+void book::showdata() {
     cout << "\nAuthor Name: " << author;
     cout << "\nTitle Name: " << title;
     cout << "\nPublisher Name: " << publisher;
@@ -38,15 +45,23 @@ void book::showdata() { //  показвает какие книги есть в
     cout << "\nStock Position: " << *stock;
 
 }
-
-int book::search(char tbuy[20], char abuy[20]) { // проверка наличия книг в магазине
+/** проверка наличия книг в магазине
+ *
+ * @param tbuy название книги
+ * @param abuy имя автора
+ * @return
+ */
+int book::search(char tbuy[20], char abuy[20]) {
     if (strcmp(tbuy, title) == 0 && strcmp(abuy, author) == 0)
         return 1;
     else return 0;
 
 }
 
-void book::buybook() { //   функция отвечающая за покупку книги в системе
+/** функция отвечающая за покупку книги в системе
+ *
+ */
+void book::buybook() {
     int count;
     cout << "\nEnter Number Of Books to buy: "; // вводим имя книги
     cin >> count; // вводим имя книги
