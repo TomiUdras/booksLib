@@ -1,7 +1,8 @@
 #include "books.hpp"
+#include <vector>
 
 int main() {
-    book *B[20];
+    std::vector<book> B;
     int i = 0, r, t, choice;
     char titlebuy[20], authorbuy[20];
     while (1) {
@@ -16,8 +17,8 @@ int main() {
 
         switch (choice) {
             case 1:
-                B[i] = new book;
-                B[i]->feeddata();
+                B.emplace_back();
+                B[i].feeddata();
                 i++;
                 break;
 
@@ -28,8 +29,8 @@ int main() {
                 cout << "Enter Author Of Book: ";
                 cin.getline(authorbuy, 20);
                 for (t = 0; t < i; t++) {
-                    if (B[t]->search(titlebuy, authorbuy)) {
-                        B[t]->buybook();
+                    if (B[t].search(titlebuy, authorbuy)) {
+                        B[t].buybook();
                         break;
                     }
                 }
@@ -45,9 +46,9 @@ int main() {
                 cin.getline(authorbuy, 20);
 
                 for (t = 0; t < i; t++) {
-                    if (B[t]->search(titlebuy, authorbuy)) {
+                    if (B[t].search(titlebuy, authorbuy)) {
                         cout << "\nBook Found Successfully";
-                        B[t]->showdata();
+                        B[t].showdata();
                         break;
                     }
                 }
@@ -63,9 +64,9 @@ int main() {
                 cin.getline(authorbuy, 20);
 
                 for (t = 0; t < i; t++) {
-                    if (B[t]->search(titlebuy, authorbuy)) {
+                    if (B[t].search(titlebuy, authorbuy)) {
                         cout << "\nBook Found Successfully";
-                        B[t]->editdata();
+                        B[t].editdata();
                         break;
                     }
                 }

@@ -1,8 +1,6 @@
 #include "books.hpp"
 
-/**
- *добавление книги в БД
- */
+
 void book::feeddata() {
     cin.ignore();
     cout << "\nEnter Author Name: ";
@@ -17,9 +15,7 @@ void book::feeddata() {
     cin >> stock;
 
 }
-/**
- *изменение базы данных книжного магазина
- */
+
 void book::editdata() {
 
     cout << "\nEnter Author Name: ";
@@ -34,9 +30,7 @@ void book::editdata() {
     cin >> stock;
 
 }
-/**
- *показвает какие книги есть в магазине
- */
+
 void book::showdata() {
     cout << "\nAuthor Name: " << author;
     cout << "\nTitle Name: " << title;
@@ -45,20 +39,13 @@ void book::showdata() {
     cout << "\nStock Position: " << stock;
 
 }
-/** проверка наличия книг в магазине
- *
- * @param tbuy название книги
- * @param abuy имя автора
- * @return
- */
+
 bool book::search(std::string const &tbuy, std::string const &abuy) {
     return tbuy==title && abuy==author;
 }
 
 
-/**
- *функция отвечающая за покупку книги в системе
- */
+
 void book::buybook() {
     int count;
     cout << "\nEnter Number Of Books to buy: "; // вводим имя книги
