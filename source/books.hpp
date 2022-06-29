@@ -27,7 +27,7 @@ public:
 
     void showdata();
 
-    bool book::search(std::string const &tbuy, std::string const &abuy);
+    bool search(std::string const &tbuy, std::string const &abuy);
 
     void buybook();
 

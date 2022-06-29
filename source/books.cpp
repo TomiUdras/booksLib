@@ -6,15 +6,15 @@
 void book::feeddata() {
     cin.ignore();
     cout << "\nEnter Author Name: ";
-    cin.getline(author, 20);
+    cin >> author;
     cout << "Enter Title Name: ";
-    cin.getline(title, 20);
+    cin >> title;
     cout << "Enter Publisher Name: ";
-    cin.getline(publisher, 20);
+    cin >> publisher;
     cout << "Enter Price: ";
-    cin >> *price;
+    cin >> price;
     cout << "Enter Stock Position: ";
-    cin >> *stock;
+    cin >> stock;
 
 }
 /**
@@ -23,15 +23,15 @@ void book::feeddata() {
 void book::editdata() {
 
     cout << "\nEnter Author Name: ";
-    cin.getline(author, 20);
+    cin >> author;
     cout << "Enter Title Name: ";
-    cin.getline(title, 20);
+    cin >> title;
     cout << "Enter Publisher Name: ";
-    cin.getline(publisher, 20);
+    cin >> publisher;
     cout << "Enter Price: ";
-    cin >> *price;
+    cin >> price;
     cout << "Enter Stock Position: ";
-    cin >> *stock;
+    cin >> stock;
 
 }
 /**
@@ -63,8 +63,8 @@ void book::buybook() {
     int count;
     cout << "\nEnter Number Of Books to buy: "; // вводим имя книги
     cin >> count; // вводим имя книги
-    if (count <= *stock) {
-        *stock = *stock - count;
+    if (count <= stock) {
+        stock = stock - count;
         cout << "\nBooks Bought Sucessfully";
         cout << "\nAmount: Rs. " << (*price) * count;
     } else
