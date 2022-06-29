@@ -1,5 +1,5 @@
 #include "books.cpp"
-#include "doctest.h"
+#include "../external/doctest/doctest.h"
 
 
 TEST_CASE("test1"){

@@ -11,7 +11,7 @@ file(GLOB SOURCES
         )
 
 add_executable(booksLib ${SOURCES})
-add_executable(booksLib_test source/test.cpp source/doctest.h)
+add_executable(booksLib_test source/test.cpp external/doctest/doctest.h)
 target_link_libraries(booksLib_test doctest)
 
 add_test(NAME Test COMMAND Test —force-colors -d)
